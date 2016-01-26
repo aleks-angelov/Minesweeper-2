@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>gamelost.png</file>
+        <file>gamewon.png</file>
+        <file>leftclick.png</file>
+        <file>newgame.png</file>
+        <file>redmine_broken.png</file>
+        <file>tile.png</file>
+        <file>tile_flagged.png</file>
+        <file>tile_mine.png</file>
+        <file>tile_mine_flag.png</file>
+        <file>tile_mine_nomine.png</file>
+        <file>tile_unsure.png</file>
+        <file>minesweeper.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>difficultywindow</class>
+ <widget class="QDialog" name="difficultywindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>324</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Minesweeper - Aleks Angelov</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/images/minesweeper.png</normaloff>:/images/minesweeper.png</iconset>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="difficulty_info">
+   <property name="geometry">
+    <rect>
+     <x>102</x>
+     <y>9</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Number of Mines (Default is 40)</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QSlider" name="difficulty_scale">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>63</y>
+     <width>300</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>10</number>
+   </property>
+   <property name="maximum">
+    <number>232</number>
+   </property>
+   <property name="value">
+    <number>40</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="tickPosition">
+    <enum>QSlider::NoTicks</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="difficulty_start">
+   <property name="geometry">
+    <rect>
+     <x>123</x>
+     <y>102</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start!</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="difficulty_value">
+   <property name="geometry">
+    <rect>
+     <x>147</x>
+     <y>49</y>
+     <width>19</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>40</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="difficulty_min">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>89</y>
+     <width>19</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>10</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="difficulty_max">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>89</y>
+     <width>25</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>232</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
